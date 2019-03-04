@@ -3,11 +3,13 @@
 
 This is a basic Legend of Zelda styled RPG fighting game created for a bootcamp course assignment 
 
-### Instructions & Notes: 
+### Instructions
 1. Select Player
 2. Select Enemy 
 3. Click "Attack" to begin fighting
 4. Defeat all enemies to win
+
+### Notes
 
 * All characters have HP, Attack Power and Counter-Attack Power
 * Player character's Attack Power increases after every attack
