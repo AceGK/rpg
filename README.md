@@ -1,6 +1,7 @@
 # Basic RPG game assignment
 ## Legend of Zelda
 
+(https://acegk.github.io/rpg/ "Play")
 This is a basic Legend of Zelda styled RPG fighting game created for a bootcamp course assignment 
 
 ### Instructions
