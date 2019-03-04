@@ -3,7 +3,7 @@
 
 This is a basic Legend of Zelda styled RPG fighting game created for a bootcamp course assignment 
 
-###Instructions & Notes: 
+### Instructions & Notes: 
 1. Select Player
 2. Select Enemy 
 3. Click "Attack" to begin fighting
@@ -15,5 +15,5 @@ This is a basic Legend of Zelda styled RPG fighting game created for a bootcamp 
     *  Hint: Defeating the enemies in certain order will allow the player character to win
 
 
-###Copyrighted Images
+### Copyrighted Images
 All images used are not created or owned by me 
