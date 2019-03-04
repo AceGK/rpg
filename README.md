@@ -2,6 +2,7 @@
 ## Legend of Zelda
 
 [Click Here to Play](https://acegk.github.io/rpg/)
+
 This is a basic Legend of Zelda styled RPG fighting game created for a bootcamp course assignment 
 
 ### Instructions
