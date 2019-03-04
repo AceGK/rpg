@@ -1,0 +1,82 @@
+
+body {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+
+}
+h1, h2, h3, h4, h5 {
+    color:white;
+}
+p {
+    color:white;
+    margin:0px;
+    font-size:18px;
+}
+hr {
+    border: 1px solid rgb(255,255,255,0.15);
+    width:75%;
+}
+#playerSelect{
+    max-width:960px;
+}
+#playerSelect div:hover{
+    background-color:rgb(255, 0, 0, 0.4);
+}
+#logo {
+    width:350px;
+    margin:20px 10px 10px 10px;
+}
+.center {
+    margin: 0px auto;
+    text-align: center;
+}
+.container {
+    padding-top:25px;
+}
+.container-fluid{
+    padding:0px;
+}
+.btn {
+    text-align: center;
+}
+#textArea {
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    background:rgb(255,255,255,.1);
+    border:1px solid red;
+    padding:25px 0px;
+}
+#text {
+    color:white;
+}
+.col-4 {
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.character {
+    height:150px;
+    width:auto;
+}
+#defendersRemaining img {
+    height:100px;
+    width:auto;
+}
+#defendersRemaining img:hover{
+    background-color:rgb(255, 0, 0, 0.4);
+}
+.flip{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}

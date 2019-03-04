@@ -1,0 +1,70 @@
+ht
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>RPG</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="center logo"><img id="logo" src="assets/images/logo2.png">
+        </div>
+        <div class="center container">
+            <h3 id="select"></h3>
+        </div>
+        <div id="playerSelect" class="container col-4 center">
+        </div>
+
+        <div class="row">
+            <div class="col-12 center">
+                <div id="defendersRemaining"></div>
+                <hr id="hr">
+            </div>
+        </div>
+
+        <div class="row text-center playerArea">
+
+            <div id="p1" class="col-6">
+                <div class="container">
+                    <div id="player"></div>
+                    <div id="playerHp"></div>
+                    <div id="playerAp"></div>
+                </div>
+            </div>
+
+            <div id="p2" class="col-6">
+                <div class="container">
+                    <div id="defender"></div>
+                    <div id="defenderHp"></div>
+                    <div id="defenderAp"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!--button -->
+    <div class="row">
+        <div class="col-12 btn textDiv">
+            <div id="textArea"></div>
+            <br>
+            <button type="button" id="attackBtn" class="btn btn-danger btn-lg">ATTACK!</button>
+        </div>
+    </div>
+
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="assets/javascript/rpg.js "></script>
+    </head>
+    
+</body>
+
+</html>
