@@ -155,7 +155,8 @@ $(document).on("click", "#attackBtn", function () {
             $("#playerHp").html("<p>HP: " + player.healthPoints + "</p>");
             $("#defenderHp").html("<p>HP: " + defender.healthPoints + "</p>");
             if (!isAlive(player)) {
-                $("#player").children().remove();
+                $("#p1").hide();
+                $("#p2").addClass('col-12').removeClass('col-6');
                 $("#textArea").html("<h3> Game Over <br> <h2>" + defender.name + " wins!</h3>");
                 $("#attackBtn").html("RESTART");
                 //game restart button / loaction reload 
