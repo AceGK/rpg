@@ -1,5 +1,4 @@
 # Basic RPG game assignment
-## Legend of Zelda
 
 [Click Here to Play](https://acegk.github.io/rpg/)
 
