@@ -1,4 +1,4 @@
-# basic RPG game assignment
+# Basic RPG game assignment
 ## Legend of Zelda
 
 This is a basic Legend of Zelda styled RPG fighting game created for a bootcamp course assignment 
@@ -15,7 +15,6 @@ This is a basic Legend of Zelda styled RPG fighting game created for a bootcamp 
 * Player character's Attack Power increases after every attack
 * Attack Power increase will carry over to each fight
     *  Hint: Defeating the enemies in certain order will allow the player character to win
-
 
 ### Copyrighted Images
 All images used are not created or owned by me 
