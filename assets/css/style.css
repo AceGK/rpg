@@ -13,11 +13,22 @@ body {
 }
 h1, h2, h3, h4, h5 {
     color:white;
+    font-family: 'Press Start 2P', cursive;
+}
+h1 {
+    font-size:18px;
+}
+h2 {
+    font-size:16px;
+}
+h3 {
+    font-size:14px;
 }
 p {
     color:white;
     margin:0px;
-    font-size:18px;
+    font-size:10px;
+    font-family: 'Press Start 2P', cursive;
 }
 hr {
     border: 1px solid rgb(255,255,255,0.15);
@@ -45,17 +56,20 @@ hr {
 }
 .btn {
     text-align: center;
+    font-family: 'Press Start 2P', cursive;
 }
 #textArea {
-    width: 500px;
+    width: 600px;
     margin: 0px auto;
     text-align: center;
     background:rgb(255,255,255,.1);
     border:1px solid red;
     padding:25px 0px;
+    margin-top:15px;
 }
 #text {
     color:white;
+    font-family: 'Press Start 2P', cursive;
 }
 .col-4 {
     display:grid;
@@ -79,4 +93,8 @@ hr {
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH";
+}
+
+.clickCharacter {
+    padding:10px;
 }

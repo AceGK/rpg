@@ -66,11 +66,11 @@ function isWinner() {
 function characters(charDiv) {
     $(charDiv).children().remove();
     for (var i = 0; i < charArray.length; i++) {
-        $(charDiv).append("<div />");
+        $(charDiv).append("<div>");
         $(charDiv + " div:last-child").append("<img class='clickCharacter' >");
         $(charDiv + " img:last-child").attr("id", charArray[i].name);
         $(charDiv + " img:last-child").attr("src", charArray[i].pic);
-        $(charDiv + " div:last-child").append("<p>" + charArray[i].name + "<p>" + "<p>HP: " + charArray[i].healthPoints + "</p>");
+        $(charDiv + " div:last-child").append("<p>" + charArray[i].name + "<p>" + "<p>HP: " + charArray[i].healthPoints + "</p> <br>");
     }
 }
 
@@ -157,7 +157,7 @@ $(document).on("click", "#attackBtn", function () {
             if (!isAlive(player)) {
                 $("#p1").hide();
                 $("#p2").addClass('col-12').removeClass('col-6');
-                $("#textArea").html("<h3> Game Over <br> <h2>" + defender.name + " wins!</h3>");
+                $("#textArea").html("<h3> GAME OVER <br> <h2>" + defender.name + " wins!</h3>");
                 $("#attackBtn").html("RESTART");
                 //game restart button / loaction reload 
                 $(document).on("click", "#attackBtn", function () {
