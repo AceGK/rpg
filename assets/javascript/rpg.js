@@ -17,11 +17,11 @@ function Character(name, hp, ap, counter, pic) {
 // Initialize all the characters
 function initCharacters() {
     var link = new Character("Link", 125, 25, 75, "assets/images/link.gif");
-    var majora = new Character("Majora", 200, 50, 80, "assets/images/majora.gif");
+    var skullkid = new Character("Skull Kid", 200, 50, 80, "assets/images/majora.gif");
     var bokobolin = new Character("Bokobolin", 150, 25, 10, "assets/images/bokobolin.gif");
     var cucco = new Character("Cucco", 999, 1, 1, "assets/images/cucco.gif");
 
-    charArray.push(link, majora, bokobolin, cucco);
+    charArray.push(link, skullkid, bokobolin, cucco);
 }
 
 // attack
